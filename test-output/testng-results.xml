@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-19T06:04:12Z" name="Automation Test Suite Demo" finished-at="2022-08-19T06:06:10Z" duration-ms="117281">
+    <groups>
+    </groups>
+    <test started-at="2022-08-19T06:04:12Z" name="Login Page Test run on the- chrome browser -Version 103" finished-at="2022-08-19T06:05:17Z" duration-ms="64618">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@3b8ec001]" started-at="2022-08-19T06:04:13Z" name="setup" finished-at="2022-08-19T06:04:26Z" duration-ms="13405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.test.testcases.LoginPageTest@3b8ec001]" started-at="2022-08-19T06:04:26Z" name="loginPageTitleTest" finished-at="2022-08-19T06:04:36Z" duration-ms="10259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.test.testcases.LoginPageTest@3b8ec001]" started-at="2022-08-19T06:04:37Z" name="loginPageUrlTest" finished-at="2022-08-19T06:04:47Z" duration-ms="10044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.test.testcases.LoginPageTest@3b8ec001]" started-at="2022-08-19T06:04:47Z" name="forgotPwdLinkTest" finished-at="2022-08-19T06:04:57Z" duration-ms="10225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:com.test.testcases.LoginPageTest@3b8ec001]" started-at="2022-08-19T06:04:57Z" name="registerLinkTest" finished-at="2022-08-19T06:05:17Z" duration-ms="20138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginPageTest@3b8ec001]" started-at="2022-08-19T06:05:17Z" name="tearDown" finished-at="2022-08-19T06:05:17Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test run on the- chrome browser -Version 103 -->
+    <test started-at="2022-08-19T06:04:12Z" name="Login Page Test run on -ff browser - version 103" finished-at="2022-08-19T06:05:21Z" duration-ms="68127">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@7d979d34]" started-at="2022-08-19T06:04:13Z" name="setup" finished-at="2022-08-19T06:04:29Z" duration-ms="16678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.test.testcases.LoginPageTest@7d979d34]" started-at="2022-08-19T06:04:29Z" name="loginPageTitleTest" finished-at="2022-08-19T06:04:39Z" duration-ms="10105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.test.testcases.LoginPageTest@7d979d34]" started-at="2022-08-19T06:04:39Z" name="loginPageUrlTest" finished-at="2022-08-19T06:04:49Z" duration-ms="10051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.test.testcases.LoginPageTest@7d979d34]" started-at="2022-08-19T06:04:49Z" name="forgotPwdLinkTest" finished-at="2022-08-19T06:05:00Z" duration-ms="10223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:com.test.testcases.LoginPageTest@7d979d34]" started-at="2022-08-19T06:05:00Z" name="registerLinkTest" finished-at="2022-08-19T06:05:20Z" duration-ms="20229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginPageTest@7d979d34]" started-at="2022-08-19T06:05:20Z" name="tearDown" finished-at="2022-08-19T06:05:21Z" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test run on -ff browser - version 103 -->
+    <test started-at="2022-08-19T06:04:12Z" name="Login Page Test run on Opera browser - version 88" finished-at="2022-08-19T06:05:21Z" duration-ms="68576">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@70c69586]" started-at="2022-08-19T06:04:13Z" name="setup" finished-at="2022-08-19T06:04:30Z" duration-ms="17851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.test.testcases.LoginPageTest@70c69586]" started-at="2022-08-19T06:04:30Z" name="loginPageTitleTest" finished-at="2022-08-19T06:04:41Z" duration-ms="10094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.test.testcases.LoginPageTest@70c69586]" started-at="2022-08-19T06:04:41Z" name="loginPageUrlTest" finished-at="2022-08-19T06:04:51Z" duration-ms="10050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.test.testcases.LoginPageTest@70c69586]" started-at="2022-08-19T06:04:51Z" name="forgotPwdLinkTest" finished-at="2022-08-19T06:05:01Z" duration-ms="10149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:com.test.testcases.LoginPageTest@70c69586]" started-at="2022-08-19T06:05:01Z" name="registerLinkTest" finished-at="2022-08-19T06:05:21Z" duration-ms="20163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginPageTest@70c69586]" started-at="2022-08-19T06:05:21Z" name="tearDown" finished-at="2022-08-19T06:05:21Z" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test run on Opera browser - version 88 -->
+    <test started-at="2022-08-19T06:04:12Z" name="Login Page Test run on -opera browser - version 86" finished-at="2022-08-19T06:05:21Z" duration-ms="68703">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@2f74900b]" started-at="2022-08-19T06:04:13Z" name="setup" finished-at="2022-08-19T06:04:31Z" duration-ms="17929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[opera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[86]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.test.testcases.LoginPageTest@2f74900b]" started-at="2022-08-19T06:04:31Z" name="loginPageTitleTest" finished-at="2022-08-19T06:04:41Z" duration-ms="10098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.test.testcases.LoginPageTest@2f74900b]" started-at="2022-08-19T06:04:41Z" name="loginPageUrlTest" finished-at="2022-08-19T06:04:51Z" duration-ms="10054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.test.testcases.LoginPageTest@2f74900b]" started-at="2022-08-19T06:04:51Z" name="forgotPwdLinkTest" finished-at="2022-08-19T06:05:01Z" duration-ms="10144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:com.test.testcases.LoginPageTest@2f74900b]" started-at="2022-08-19T06:05:01Z" name="registerLinkTest" finished-at="2022-08-19T06:05:21Z" duration-ms="20149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginPageTest@2f74900b]" started-at="2022-08-19T06:05:21Z" name="tearDown" finished-at="2022-08-19T06:05:21Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test run on -opera browser - version 86 -->
+    <test started-at="2022-08-19T06:04:12Z" name="Login Page Test run on -ff browser - version 102" finished-at="2022-08-19T06:05:23Z" duration-ms="70670">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@3458eca5]" started-at="2022-08-19T06:04:13Z" name="setup" finished-at="2022-08-19T06:04:32Z" duration-ms="19266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.test.testcases.LoginPageTest@3458eca5]" started-at="2022-08-19T06:04:32Z" name="loginPageTitleTest" finished-at="2022-08-19T06:04:42Z" duration-ms="10085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.test.testcases.LoginPageTest@3458eca5]" started-at="2022-08-19T06:04:42Z" name="loginPageUrlTest" finished-at="2022-08-19T06:04:52Z" duration-ms="10053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.test.testcases.LoginPageTest@3458eca5]" started-at="2022-08-19T06:04:52Z" name="forgotPwdLinkTest" finished-at="2022-08-19T06:05:02Z" duration-ms="10240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:com.test.testcases.LoginPageTest@3458eca5]" started-at="2022-08-19T06:05:02Z" name="registerLinkTest" finished-at="2022-08-19T06:05:22Z" duration-ms="20176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginPageTest@3458eca5]" started-at="2022-08-19T06:05:22Z" name="tearDown" finished-at="2022-08-19T06:05:23Z" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test run on -ff browser - version 102 -->
+    <test started-at="2022-08-19T06:04:12Z" name="Login Page Test run on the- chrome browser -Version 102" finished-at="2022-08-19T06:06:10Z" duration-ms="117272">
+      <class name="com.test.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.LoginPageTest@58606c91]" started-at="2022-08-19T06:04:13Z" name="setup" finished-at="2022-08-19T06:05:19Z" duration-ms="66547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.test.testcases.LoginPageTest@58606c91]" started-at="2022-08-19T06:05:19Z" name="loginPageTitleTest" finished-at="2022-08-19T06:05:29Z" duration-ms="10077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.test.testcases.LoginPageTest@58606c91]" started-at="2022-08-19T06:05:29Z" name="loginPageUrlTest" finished-at="2022-08-19T06:05:39Z" duration-ms="10057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.test.testcases.LoginPageTest@58606c91]" started-at="2022-08-19T06:05:39Z" name="forgotPwdLinkTest" finished-at="2022-08-19T06:05:49Z" duration-ms="10164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method signature="registerLinkTest()[pri:4, instance:com.test.testcases.LoginPageTest@58606c91]" started-at="2022-08-19T06:05:49Z" name="registerLinkTest" finished-at="2022-08-19T06:06:10Z" duration-ms="20161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginPageTest@58606c91]" started-at="2022-08-19T06:06:10Z" name="tearDown" finished-at="2022-08-19T06:06:10Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginPageTest -->
+    </test> <!-- Login Page Test run on the- chrome browser -Version 102 -->
+  </suite> <!-- Automation Test Suite Demo -->
+</testng-results>
